@@ -1,0 +1,25 @@
+html,
+body {
+  margin: 0;
+}
+
+path {
+  fill: none;
+  stroke-opacity: 0.5;
+  mix-blend-mode: multiply;
+}
+path:hover {
+  stroke-opacity: 0.85;
+}
+
+rect {
+  stroke: #333;
+  stroke-width: .5;
+}
+
+text {
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  stroke-width: 0;
+  pointer-events: none;
+}
